@@ -1,0 +1,13 @@
+# 数据集文件夹（体积大，不上传）
+chest_xray/
+
+# 模型权重文件
+models/
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+
+# 系统隐藏文件
+.DS_Store
+Thumbs.db
