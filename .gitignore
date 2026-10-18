@@ -1,13 +1,22 @@
-# 数据集文件夹（体积大，不上传）
-chest_xray/
+# 虚拟环境
+.venv/
+venv/
 
-# 模型权重文件
-models/
-
-# Python 缓存文件
+# Python缓存
 __pycache__/
 *.pyc
 
-# 系统隐藏文件
-.DS_Store
-Thumbs.db
+# 数据集（大文件，不上传）
+chest_xray/
+
+# 模型权重（大文件，不上传）
+models/*.pth
+models/*.pt
+
+# 输出结果
+results/heatmaps/
+results/reports/
+results/temp/
+
+# 向量库缓存
+.chroma/
